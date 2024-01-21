@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar (Navigation Bar) dengan Bootstrap</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+def copy_orders(Booking.html, cek pesanan.html):
+    try:
+        # Buka file sumber dalam mode membaca ('r')
+        with open(Booking.html, 'r') as f_Booking:
+            # Baca isi file sumber
+            orders_data = f_Booking.read()
+
+        # Buka file tujuan dalam mode menulis ('w')
+        with open(cek pesanan.html, 'w') as f_cek pesanan:
+            # Tulis isi pesanan ke file tujuan
+            f_cek pesanan.write(orders_data)
+
+        print("Data pesanan berhasil disalin!")
+    except FileNotFoundError:
+        print("File sumber tidak ditemukan.")
+    except IOError:
+        print("Terjadi kesalahan saat menyalin data pesanan.")
+    except Exception as e:
+        print("Error:", e)
+
+# Contoh pemanggilan fungsi untuk menyalin data pesanan
+source_file_path = "path/ke/Booking.html" 
+copy_orders(Booking.html, Cek pesanan_path)
+</div>
+        </div>
+    </div>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

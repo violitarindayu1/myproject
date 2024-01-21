@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar (Navigation Bar) dengan Bootstrap</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle Nav</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Violita Hotel</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li><a href="VIOLITAR.html">HOME</a></li>
+      <li><a href="ROOM3.html">ROOMS</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="CONTACK.html">CONTACT</a></li>
+      </ul>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OPTIONS <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href="#">CEK PESANAN</a></li>
+        <li><a href="#">PEMBATALAN</a></li>
+        </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> User <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href="LOGIN AKUN.html">Profile</a></li>
+        <li><a href="LOGIN AKUN.html">Logout</a></li>
+        </ul>
+      </li>
+      </ul>
+    </div>
+    </div>
+  </nav>  
+  <div class="container">
+    <h1>Violita Hotel</h1>
+    <p>Selamat datang di Violita hotel , dimana kenyamanan .</p>
+    
+    <h2>Tentang Kami</h2>
+    <p> VIOLITA HOTEL Terletak di jantung kota yang ramai yaitu berada pada Jalan Kutilang no.38 kota Medan,VIOLITA HOTEL dibangun sejak tahun 2003 . Violita Hotel menawarkan perpaduan unik antara keanggunan dan kenyamanan. Dengan fasilitas luar biasa dan layanan terbaik kami, kami berusaha untuk memberikan pengalaman yang tak terlupakan bagi para tamu kami.
+</p>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Rooms</h3>
+        <p>Hotel kami memiliki berbagai kamar yang luas dan dirancang dengan indah. Baik Anda bepergian sendiri atau bersama rombongan, kami memiliki akomodasi yang sempurna untuk memenuhi kebutuhan Anda. Setiap kamar dilengkapi dengan fasilitas modern dan menawarkan pemandangan cakrawala kota yang menakjubkan.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="kamar.jpg" alt="Room" class="img-fluid">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <img src="kolam renang.jpg" alt="Swimming Pool" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h3>Fasilitas</h3>
+        <p>Hotel kami menawarkan berbagai fasilitas untuk meningkatkan pengalaman menginap Anda. Berenanglah di kolam renang kami yang menyegarkan, bersantai di spa dan pusat kesehatan kami, atau tetap aktif di pusat kebugaran kami yang lengkap. Kami juga menawarkan pilihan santapan dan pusat bisnis untuk kenyamanan tamu kami
+.</p>
+      </div>
+    </div>
+    
+    <h2>Kontak Kami</h2>
+    <p>Untuk pemesanan atau pertanyaan, silakan hubungi staf kami yang ramah di:</p>
+    <ul>
+      <li>Email: info@violitahotel.com</li>
+      <li>Phone: +1 123-456-7890</li>
+    </ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

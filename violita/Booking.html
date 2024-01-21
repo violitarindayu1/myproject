@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Kamar Hotel</title>
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="container">
+    <h2>Pemesanan Kamar Hotel</h2>
+    <form>
+      <div class="form-group">
+        <label for="nama">Nama:</label>
+        <input type="text" class="form-control" id="nama" placeholder="Masukkan nama">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+      </div>
+      <div class="form-group">
+        <label for="tanggal">Tanggal Check-in:</label>
+        <input type="date" class="form-control" id="tanggal">
+      </div>
+      <div class="form-group">
+        <label for="durasi">Durasi Menginap:</label>
+        <input type="number" class="form-control" id="durasi" placeholder="Masukkan durasi (dalam hari)">
+      </div>
+         <div class="form-group">
+           <label for="room-type">Room Type:</label>
+           <select class="form-control" id="room-type">
+              <option value="single">Presidential Room</option>
+              <option value="double">Deluxe Room</option>
+              <option value="suite">Junior Suite Room</option>
+              <option value="suite">Single Room</option>
+              <option value="suite">Standard Room</option>
+              <option value="suite">Family Room/option</option>
+              
+        </select>
+      </div>
+    </div>
+    </div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-info">Simpan</button>
+      <button type="reset" class="btn btn-info">Batal</button>
+       <a href="ROOM3.html" class="btn btn-primary">back</a>
+     </div> 
+    </form>
+  </div>
+  <script src="bootstrap/js/jQuery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
